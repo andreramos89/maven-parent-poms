@@ -676,10 +676,16 @@
         <version>${fasterxml-jackson.version}</version>
       </dependency>
 
-      <dependency>
+      <!--<dependency>
         <groupId>org.yaml</groupId>
         <artifactId>snakeyaml</artifactId>
         <version>${snakeyaml.version}</version>
+      </dependency>-->
+      <!--PPP-4865 replacing snakeyaml with safeyaml-->
+      <dependency>
+        <groupId>com.konloch</groupId>
+        <artifactId>safeyaml</artifactId>
+        <version>${safeyaml.version}</version>
       </dependency>
 
       <dependency>
