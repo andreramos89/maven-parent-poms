@@ -76,7 +76,7 @@
     <osgi.core.version>6.0.0</osgi.core.version>
     <osgi.compendium.version>5.0.0</osgi.compendium.version>
 
-    <karaf.version>4.2.15</karaf.version>
+    <karaf.version>4.4.5</karaf.version>
 
     <felix.http.api.version>3.0.0</felix.http.api.version>
     <felix.http.proxy.version>3.0.6</felix.http.proxy.version>
@@ -126,8 +126,8 @@
     <maven-bundle-plugin.version>2.5.3</maven-bundle-plugin.version>
     <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
 
-    <karaf-maven-plugin.version>4.2.15</karaf-maven-plugin.version>
-    <hitachi-karaf-maven-plugin.version>4.2.15</hitachi-karaf-maven-plugin.version>
+    <karaf-maven-plugin.version>4.4.5</karaf-maven-plugin.version>
+    <hitachi-karaf-maven-plugin.version>4.4.5</hitachi-karaf-maven-plugin.version>
     <karaf-maven-plugin.enableGeneration>true</karaf-maven-plugin.enableGeneration>
     <karaf-maven-plugin.aggregateFeatures>false</karaf-maven-plugin.aggregateFeatures>
     <karaf-maven-plugin.includeTransitiveDependency>true</karaf-maven-plugin.includeTransitiveDependency>
@@ -164,6 +164,7 @@
 
     <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
     <fasterxml-jackson.version>2.14.2</fasterxml-jackson.version>
+    <hv-jackson-dataformat.version>2.14.1-hv</hv-jackson-dataformat.version>
     <fasterxml-jackson-databind.version>2.14.2</fasterxml-jackson-databind.version>
     <dom4j.version>2.1.4</dom4j.version>
     <jaxen.version>1.1.6</jaxen.version>
@@ -374,7 +375,7 @@
     <commons-io.version>2.11.0</commons-io.version>
     <rome.version>1.18.0</rome.version>
     <rhino.version>1.7.13</rhino.version>
-    <safeyaml.version>2.2</safeyaml.version>
+    <safeyaml.version>1.34.1</safeyaml.version>
     <sqlite-jdbc.version>3.41.2.2</sqlite-jdbc.version>
     <janino.version>3.1.10</janino.version>
     <gson.version>2.10.1</gson.version>
@@ -653,7 +654,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-yaml</artifactId>
-        <version>${fasterxml-jackson.version}</version>
+        <version>${hv-jackson-dataformat.version}</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
