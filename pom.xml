@@ -73,7 +73,7 @@
     <postgresql.version>42.5.1</postgresql.version>
     <ini4j.version>0.5.4</ini4j.version>
 
-    <osgi.core.version>6.0.0</osgi.core.version>
+    <osgi.core.version>8.0.0</osgi.core.version>
     <osgi.compendium.version>5.0.0</osgi.compendium.version>
 
     <karaf.version>4.4.5</karaf.version>
